@@ -1,0 +1,160 @@
+body {
+  color: #444;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 10px;
+  border-top: 10px solid #1098ad;
+  border-bottom: 10px solid #1098ad;
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-family: 20px;
+}
+
+/* header p {
+  font-style: italic;
+}
+
+footer p {
+  font-size: 16px;
+  text-align: center;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+  text-align: center;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  border-radius: 10px;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* This won't work */
+article p:first-child {
+  color: red;
+}
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  transition: ease-in-out 0.2s;
+}
+
+a:active {
+  color: #444;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: italic;
+  transition: ease-out 0.1s;
+}
+
+/* LVHA */
+.mdn-web-docs {
+  /* margin: auto auto auto 6px; */
+  padding: 2px;
+  border-style: outset;
+  border-radius: 10px;
+}
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+}
+
+/* nav a:link {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
+
+.code-on-screen {
+  display: block;
+  margin: 0 auto;
+}
